@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  overflow-y: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto 1%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-image: linear-gradient(var(--blue-50), var(--blue-200));
+}
+
+header {
+  cursor: default;
+}
+
+header > h1:hover, header > h2:hover, header > h4:hover {
+  mask-image: linear-gradient(to right, rgba(0,0,0,.5) 25%, rgba(0,0,0,1) 75%);
+  mask-size: 200%;
+  animation: shine 7.5s infinite;
+}
+
+ol {
+  font-size: large;
+}
+
+form {
+  margin: 1% 1% 2%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.toDo {
+  font-size: larger;
+  cursor: pointer;
+  animation: reduce 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.toDo:hover {
+  animation: magnify 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.marked {
+  text-decoration: line-through;
+}
+
+.list {
+  margin: -5% auto -7.5%;
+}
+
+#formInputText {
+  width: 80%;
+}
+  
+#formButton {
+  width: 20%;
+}
+
+#listButton {
+  margin-top: 5%;
+}
+
+#heading {
+  margin-top: 1%;
+  text-decoration: underline;
+  text-shadow: 2px 2px lightgray;
+}
+
+@keyframes shine {
+  from {
+    mask-position: 100%;
+  }
+  to {
+    mask-position: -100%;
+  }
+}
+
+@keyframes magnify {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.25);
+  }
+}
+
+@keyframes reduce {
+  from {
+    transform: scale(1.25);
+  }
+  to {
+    transform: scale(1);
+  }
 }
