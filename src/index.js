@@ -1,7 +1,7 @@
 /**
  * @file Provides the main functionality of the app. Utilizes React Hooks.
  * @author DorukKantarcioglu
- * @version 1.0.0
+ * @version 0.1.0
  */
 
 import React from 'react';
