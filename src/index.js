@@ -71,7 +71,8 @@ function ToDoForm({addTask})
   );
 }
 
-function UseLocalStorage(defaultValue, key) {
+function UseLocalStorage(defaultValue, key) 
+{
   const [value, setValue] = React.useState(() => {
     return (localStorage.getItem(key) !== null
       ? JSON.parse(localStorage.getItem(key)) : defaultValue);
@@ -81,7 +82,8 @@ function UseLocalStorage(defaultValue, key) {
   return [value, setValue];
 }
   
-function App() {
+function App() 
+{
     const [toDoList, setToDoList] = UseLocalStorage(null, 'toDoList');
     const toast = React.useRef();
   
