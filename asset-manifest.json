@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/to-do-list/static/css/main.d7f63f7f.chunk.css",
+    "main.js": "/to-do-list/static/js/main.c6d87933.chunk.js",
+    "main.js.map": "/to-do-list/static/js/main.c6d87933.chunk.js.map",
+    "runtime-main.js": "/to-do-list/static/js/runtime-main.7187353d.js",
+    "runtime-main.js.map": "/to-do-list/static/js/runtime-main.7187353d.js.map",
+    "static/css/2.53033a90.chunk.css": "/to-do-list/static/css/2.53033a90.chunk.css",
+    "static/js/2.fe0ffcd6.chunk.js": "/to-do-list/static/js/2.fe0ffcd6.chunk.js",
+    "static/js/2.fe0ffcd6.chunk.js.map": "/to-do-list/static/js/2.fe0ffcd6.chunk.js.map",
+    "index.html": "/to-do-list/index.html",
+    "static/css/2.53033a90.chunk.css.map": "/to-do-list/static/css/2.53033a90.chunk.css.map",
+    "static/css/main.d7f63f7f.chunk.css.map": "/to-do-list/static/css/main.d7f63f7f.chunk.css.map",
+    "static/js/2.fe0ffcd6.chunk.js.LICENSE.txt": "/to-do-list/static/js/2.fe0ffcd6.chunk.js.LICENSE.txt",
+    "static/media/primeicons.css": "/to-do-list/static/media/primeicons.e61f3495.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7187353d.js",
+    "static/css/2.53033a90.chunk.css",
+    "static/js/2.fe0ffcd6.chunk.js",
+    "static/css/main.d7f63f7f.chunk.css",
+    "static/js/main.c6d87933.chunk.js"
+  ]
+}
